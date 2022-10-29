@@ -14,5 +14,5 @@ public interface StudentService {
 
     Student removeStudent(Long id);
 
-    ArrayList<Student> findByAge(int age);
+//    ArrayList<Student> findByAge(int age);
 }

@@ -14,5 +14,5 @@ public interface FacultyService {
 
     Faculty removeFaculty(Long id);
 
-    ArrayList<Faculty> findByColor(String color);
+//    ArrayList<Faculty> findByColor(String color);
 }

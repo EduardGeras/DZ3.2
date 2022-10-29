@@ -3,7 +3,6 @@ package com.example.dz3_2.service;
 import com.example.dz3_2.model.Student;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 @Service
@@ -38,7 +37,7 @@ public class StudentServiceImpl implements StudentService{
         return students.remove(id);
     }
 
-    @Override
+/*    @Override
     public ArrayList<Student> findByAge(int age) {
         ArrayList<Student> result = new ArrayList<>();
         for (Student student : students.values()) {
@@ -47,5 +46,5 @@ public class StudentServiceImpl implements StudentService{
             }
         }
         return result;
-    }
+    }*/
 }

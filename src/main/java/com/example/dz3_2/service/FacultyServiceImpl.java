@@ -40,7 +40,7 @@ public class FacultyServiceImpl implements FacultyService{
         return faculties.remove(id);
     }
 
-    @Override
+/*    @Override
     public ArrayList<Faculty> findByColor(String color) {
         ArrayList<Faculty> result = new ArrayList<>();
         for (Faculty faculty : faculties.values()) {
@@ -49,5 +49,5 @@ public class FacultyServiceImpl implements FacultyService{
             }
         }
         return result;
-    }
+    }*/
 }
